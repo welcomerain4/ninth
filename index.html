@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="kr">
+<title>DanBi</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style2.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+    .half img {
+        margin-bottom: -6px;
+        margin-top: 16px;
+        opacity: 0.8;
+        cursor: pointer
+    }
+
+    .half img:hover {
+        opacity: 1
+    }
+
+    a:link {
+        color: rgb(255, 238, 0);
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: rgb(103, 237, 255);
+    }
+
+    a:visited {
+        color: rgb(253, 19, 19);
+    }
+
+    .fa {
+        padding: 20px;
+        font-size: 50px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+    }
+
+    @media (max-width: 600px) {
+        #side {
+            display: none;
+        }
+
+        .main {
+            margin-left: 0;
+            margin-right: 0;
+        }
+    }
+</style>
+
+<body>
+
+    <!-- 왼쪽 사이드 메뉴 -->
+    <div id="side">
+        <nav class="sidebar colorname" style="width:180px; font-weight:bold;">
+
+            <div class="bar-block">
+                <a href="#int">interests</a> <br>
+                <a href="#edu">education</a> <br>
+                <a href="#works">works</a> <br>
+                <a href="#con">contact</a> <br>
+            </div>
+        </nav>
+    </div>
+
+    <!-- 페이지 상단 -->
+    <div class="main" style="margin-left:200px; margin-right:40px;">
+        <h2 class="caption"> welcome to my world of work & life </h2>
+
+        <!-- 관심사 -->
+        <div class="bigbox" style="margin-top:0px;">
+            <h1 class="jumbo"><b>Dan Bi Kim</b></h1>
+            <h1 class="xxxlarge colorname" id="interests"><b>interests</b></h1>
+            <hr style="width:40%; border:5px solid black; float: left; clear: both; "> <br>
+        </div>
+
+        <!-- 사진 -->
+        <div class="imgpadding">
+            <div class="half">
+                <img src="board.jpeg" style="width:100%" alt="알리">
+                <img src="cat.jpg" style="width:100%" alt="고양이">
+                
+            </div>
+
+            <div class="half">
+                <img src="스플랜더.jpg" style="width:100%" alt="스플랜더">
+                <img src="beta.jpg" style="width:100%" alt="물고기">
+            </div>
+        </div>
+
+        <p>재미있게 운동하고 싶어서 시작한 스케이트 보드는 코로나때문에 잘 타진 못하지만 괜찮아지면 공원에나가 다시 타고싶습니다. 
+        </p>
+        <p>보드게임도 사람을 만나야하기때문에 못한지가 오래되었네요</p>
+        <p>동물들을 좋아합니다. 열대어를 파는 수족관에서도 일을 해보았습니다. 한때는 꿈이 사육사일정도로 동물들을 좋아합니다.</p>
+        
+
+        <!-- 공부 -->
+        <div class="bigbox" id="edu" style="margin-top:75px">
+            <h1 class="xxxlarge colorname"><b>education</b></h1>
+            <hr style="width:40%; border:5px solid black; float: left; clear: both; "> <br>
+            <p>늦게 결정한 복수전공</p>
+            <p>생명학과를 심화전공으로 하려다가 코딩에 관심이 생기어서 복수전공을 늦게 결정하게 되었습니다. 원래 심전을 할려고 했었기 때문에 수업듣는 것이 꼬여서 추가학기를 들을 수도 있지만 후회하지는 않습니다.
+                코딩이 재미있고 잘 맞기 때문입니다. 아직 언어나 html같은 마크업 언어도 하나도 익숙하지 않지만 늦은만큼 열심히 준비하여 따라가고싶습니다. </p>
+            <p>주전공은?</p>
+            <p>주전공은 생명학과였는데 휴학을 오래하는 바람에 과가 개편되면서 바이오생명공학과로 저도 편입?을 하게 되었습니다. 기존에 배우지 않았던 공학적인 부분과 개편된 졸업가이드때문에 조금 힘이듭니다..ㅎㅎ
+            </p>    
+        </div>
+
+        <!-- 포트폴리오 -->
+        <div class="bigbox" id="works" style="margin-top:75px">
+            <h1 class="xxxlarge"><b>works</b></h1>
+            <hr style="width:40%; border:5px solid black; float: left; clear: both; "> <br>
+            <p>복수전공을 살려서 취업하고싶습니다.</p>
+            <p>백엔드가 될지 프론트엔드가 될지는 앞으로 더 공부해야 할 것같지만, 주전공보다는 이 길에 더 흥미가 생기어서 도전해보고싶습니다. 저번 겨울방학때 인턴경험을 해보니 현직 프로그래머분들도 원래 주전공이 아닌 분이 많아서 더 자극을 받았었습니다.
+                곧 또 방학이 되어가는데 기회가 된다면 개발인턴을 경험해 보고싶습니다.
+            </p>
+        </div>
+
+
+
+        <!-- 연락처 -->
+        <div class="bigbox" id="con" style="margin-top:75px">
+            <h1 class="xxxlarge"><b>contact</b></h1>
+            <hr style="width:40%; border:5px solid black; float: left; clear: both; "> <br>
+            <ul class="contact-info">
+                <li>+82 010-44**-77**</li>
+                <li><a href="mailto:welcomerain4@gmail.com">welcomerain4@gmail.com</a></li> <br>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-youtube"></a>
+                <a href="#" class="fa fa-instagram"></a>
+
+
+
+                <footer>
+                    <p class="credit">
+                        Copyright &copy; All rights reserved | by Danbikim </p>
+
+                </footer>
+
+
+
+
+</body>
+
+</html>
